@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/hvkg.css">
-    <title>Document</title>
+    <title>{{title}}</title>
 </head>
 
 <body>
-    <main>
-        <main tabindex="1" id="main-content" class="bg-gray-500">
+    <div class="container flex flex-col min-h-screen min-w-full items-stretch mx-auto">
+        {% include "partials/site-head.html" %}
+        <main tabindex="1" id="main-content" class="flex-grow flex-shrink-0 p-6">
             {% block content %}{% endblock %}
         </main>
-    </main>
+        {% include "partials/site-footer.html" %}
+    </div>
 </body>
 
 </html>

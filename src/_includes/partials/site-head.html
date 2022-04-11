@@ -1,0 +1,24 @@
+<!-- Navigation -->
+<header role="banner" class=" flex-shrink-0">
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex  container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <a href="/" aria-label="{{ site.name }} - Home">
+                    <img src="/assets/img/logo_kleist_gesellschaft.gif" alt="">
+                </a>
+            </div>
+            <!-- Menu Items -->
+            <ul class="hidden md:flex space-x-6">
+                {% for item in navigation.items %}
+                <li>
+                    <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+                        class=" no-underline hover:text-kleistBlauGreen">{{ item.text
+                        }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</header>

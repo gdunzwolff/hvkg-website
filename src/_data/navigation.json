@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "Heinrich v. Kleist",
+            "url": "/hvk/"
+        },
+        {
+            "text": "Kleist-Preis",
+            "url": "/kleist-preis/"
+        },
+        {
+            "text": "Kleist-Jahrbuch",
+            "url": "/kjb/"
+        },
+        {
+            "text": "Veranstaltungen",
+            "url": "/veranstaltungen/"
+        },
+        {
+            "text": "Nachwuchs-Netzwerk",
+            "url": "/nachwuchs-netzwerk/"
+        }
+    ]
+}
