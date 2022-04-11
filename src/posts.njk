@@ -1,0 +1,9 @@
+---
+permalink: /posts/
+---
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    {% set postslist = collections.posts %}
+    {% include "postslist.njk" %}
+{% endblock %}
