@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/hvkg.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <title>Let&#39;s Party</title>
+</head>
+
+<body>
+    <div class="container flex flex-col min-h-screen min-w-full items-stretch mx-auto">
+        <!-- Navigation -->
+<header role="banner" class=" flex-shrink-0">
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex  container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <a href="/" aria-label=" - Home">
+                    <img src="/assets/img/logo_kleist_gesellschaft.gif" alt="">
+                </a>
+            </div>
+            <!-- Menu Items -->
+            <ul class="hidden md:flex space-x-6">
+                
+                <li>
+                    <a href="/" 
+                        class=" no-underline hover:text-kleistBlauGreen">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/hvk/" 
+                        class=" no-underline hover:text-kleistBlauGreen">Heinrich v. Kleist</a>
+                </li>
+                
+                <li>
+                    <a href="/kleist-preis/" 
+                        class=" no-underline hover:text-kleistBlauGreen">Kleist-Preis</a>
+                </li>
+                
+                <li>
+                    <a href="/kjb/" 
+                        class=" no-underline hover:text-kleistBlauGreen">Kleist-Jahrbuch</a>
+                </li>
+                
+                <li>
+                    <a href="/veranstaltungen/" 
+                        class=" no-underline hover:text-kleistBlauGreen">Veranstaltungen</a>
+                </li>
+                
+                <li>
+                    <a href="/nachwuchs-netzwerk/" 
+                        class=" no-underline hover:text-kleistBlauGreen">Nachwuchs-Netzwerk</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+</header>
+        <main tabindex="1" id="main-content" class="flex-grow flex-shrink-0 p-6">
+            
+<p><img src="/assets/img/doktorhut.png" alt="">
+This is the post body, where I write about our last chance to party before the Y2K bug destroys us all.</p>
+
+
+        </main>
+        <footer class="flex-shrink-0 bg-kleistBlauGrayscaleVersion">
+    <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Company</h2>
+            <ul class="text-gray-300">
+                <li class="mb-4">
+                    <a href="#" class=" hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Careers</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Brand Center</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Help center</h2>
+            <ul class="text-gray-300">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Discord Server</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Twitter</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Facebook
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Legal</h2>
+            <ul class="text-gray-300">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Licensing</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Download</h2>
+            <ul class="text-gray-300">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">iOS</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Android</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Windows</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">MacOS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
