@@ -9,3 +9,5 @@ Da kommt noch mehr. Hier der erste Link und gleich der wichtigste: [kleist-digit
 
 Kontrolle, ob die Version mit Anbindung von NetlifyCMS deployed worden ist.
 22:47 dreißig
+
+Heute ist ein neuer Tag.
